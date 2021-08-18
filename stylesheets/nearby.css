@@ -1,0 +1,20 @@
+h3.nearby {
+	font-family: 'Cookie', cursive;
+	font-size: 3.5em;
+	color: #436571;
+}
+
+p.lead {
+	color: #436571;
+	font-size: 1.25em;
+	border-bottom: 5px solid;
+	border-color: #436571;
+	padding-bottom: 25px;
+}
+
+.nearbyIntro {
+	font-family: 'Cookie', cursive;
+	font-size: 3em;
+	color: #436571;
+	text-align: center;
+}

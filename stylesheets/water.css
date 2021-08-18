@@ -1,0 +1,71 @@
+img {
+  margin-top: 30px;
+  box-shadow: 5px 5px 10px black;
+}
+
+#water {
+  color: #FBEEC1;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h3.text-center {
+  margin-top: 20px;
+  color: #FBEEC1;
+  font-size: 3.5em;
+  font-family: 'Cookie', cursive;
+}
+
+h4.text-center {
+  margin-top: 50px;
+  color: #FBEEC1;
+  font-size: 2em;
+  font-family: 'Cookie', cursive;
+}
+
+p.text-center {
+  color: #FBEEC1;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+.col-sm {
+  background-color: #cc8800;
+}
+
+.col-sm-4 {
+  background-color: #DAAD86;
+  background-image: url("../images/orangekayak.png"), url("../images/orangekayak.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-sm-4 {
+    background-color: #DAAD86;
+    background-image: url("../images/kayak.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .col-sm {
+    background-color: #cc8800;
+    background-image: url("../images/kayak.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  h3.text-center {
+    font-size: 2em;
+  }
+  h4.text-center {
+    font-size: 1em;
+  }
+  p.text-center {
+    font-size: .75em;
+  }
+}

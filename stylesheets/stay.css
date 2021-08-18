@@ -1,0 +1,75 @@
+h2.text-center {
+  font-family: 'Cookie', cursive;
+  font-size: 3.5em;
+  color: #436571;
+}
+
+h3.text-center {
+  color: #8d8741;
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+h4.text-left {
+  font-family: 'Cookie', cursive;
+  font-size: 1.75em;
+  color: #436571;
+  border-bottom: 2px solid gray;
+}
+
+p {
+  color: #436571;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.carousel-inner img {
+  height: 100%;
+  width: 100% !important;
+}
+
+.introcabin {
+  padding-top: 20px;
+}
+
+.cabin {
+  background: #DAAD86;
+  border-top: 10px solid gray;
+  border-bottom: 10px solid gray;
+}
+
+.campground {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+   h2 {
+    font-size: 2em;
+  }
+
+  h1.jumbo {
+  font-size: 3em;
+}
+
+  h2.text-center {
+    font-size: 2em;
+  }
+  h3.text-center {
+    font-size: 1em;
+  }
+  p {
+    font-size: .75em;
+  }
+}
+
+
+
+
+
